@@ -1,0 +1,153 @@
+//Declare a function called average that takes two numbers as inputs and returns the average of those numbers.
+
+function average(num1, num2){
+  return (num1 + num2)/2;
+} 
+
+//console.log(average(3, 5));
+
+function average(num1, num2){
+  return (num1 + num2)/2;
+} 
+
+//console.log(average(3, 5));
+
+
+/*
+Geometry Formulas 
+Area and Perimeters
+*/
+
+//area of Square
+function areaSquare(l){
+  return l*l;
+}
+
+console.log(areaSquare(3));
+
+//perimeter of a square
+
+function perimeterSquare(l){
+  return 4 * l;
+}
+
+console.log(perimeterSquare(3));
+
+//area of a square
+
+function areaRect(l, w){
+  return l * w;
+}
+
+console.log(areaRect(6,4));
+
+//perimeter of a rectangle
+
+function perimeterRect(l, w){
+  return 2*l + 2*w;
+}
+
+console.log(perimeterRect(6,4));
+
+//area of a parallelogram
+
+function areaParallelogram(l,h,w){
+  return l * h;
+}
+
+//console.log(areaParallelogram(4,2,3));
+
+//perimeter of a parallelogram
+
+function perimeterParallelogram(l,h,w){
+  return (2*l) + (2*w);
+}
+
+//console.log(perimeterParallelogram(4,2,3));
+
+//area of a trapezoid
+
+function areaTrapezoid(b1,b2,h,s1,s2){
+  return ((b1 + b2)*h)/2 ;
+}
+
+//console.log(areaTrapezoid(4,2,3,3.5,3.5));
+
+//perimeter of a trapezoid
+
+function perimeterTrapezoid(b1,b2,h,s1,s2){
+  return b1+b2+s1+s2 ;
+}
+
+//console.log(perimeterTrapezoid(4,2,3,3.5,3.5));
+
+//area of a triangle
+
+function areaTriangle(b,h,s1,s2){
+  return (b*h)/2;
+}
+
+//console.log(areaTriangle(4,2,3,3));
+
+//perimeter of a triangle
+
+function perimeterTriangle(b,h,s1,s2){
+  return s1+s2+b;
+}
+
+console.log(perimeterTriangle(4,2,3,3));
+
+//area of a circle
+
+function areaCircle(r){
+  return r*r*Math.PI;
+}
+
+//console.log(areaCircle(1));
+
+//circumference of a circle
+
+function circCircle(r){
+  return 2*r*Math.PI;
+}
+
+//console.log(circCircle(1));
+
+
+/*
+Volumes and Surface Areas 
+of 
+Three-Dimensional Figures
+*/
+
+//volume of a rectangular solid
+
+function rectVol(l,w,h){
+  return l * w * h;
+}
+
+//console.log(rectVol(2,4,3));
+
+//surface area of a rectangular solid
+
+function rectSurfaceArea(l,w,h){
+  return 2 *(l*h + w*h + w*l);
+}
+
+//console.log(rectSurfaceArea(2,4,3));
+
+//volume of a cube
+
+function cubeVol(s){
+  return s * s * s;
+}
+
+//console.log(cubeVol(2));
+
+//surface area of a rectangular solid
+
+function cubeSurfaceArea(s){
+  return 6 *s *s;
+}
+
+//console.log(cubeSurfaceArea(2));
